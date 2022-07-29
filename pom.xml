@@ -9,10 +9,10 @@
 		<relativePath/> <!-- lookup parent from repository -->
 	</parent>
 	<groupId>com.backend</groupId>
-	<artifactId>rest-api</artifactId>
+	<artifactId>taller-api</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
-	<name>rest-api</name>
-	<description>Demo project</description>
+	<name>taller-api</name>
+	<description>Proyecto para el rest de la aplicacion para taller</description>
 	<properties>
 		<java.version>11</java.version>
 	</properties>

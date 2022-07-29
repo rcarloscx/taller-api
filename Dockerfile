@@ -1,5 +1,5 @@
-FROM java:8
+FROM openjdk:11
 WORKDIR /
-ADD target/rest-api-0.0.1-SNAPSHOT.jar HelloWorld.jar
+ADD target/taller-api-0.0.1-SNAPSHOT.jar taller-api-0.0.1-SNAPSHOT.jar
 EXPOSE 8080
-CMD java - jar HelloWorld.jar
+CMD java - jar taller-api-0.0.1-SNAPSHOT.jar
